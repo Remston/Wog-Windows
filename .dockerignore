@@ -1,0 +1,8 @@
+﻿# .dockerignore
+venv
+__pycache__
+.idea
+.git
+games\__pycache__
+score\__pycache__
+
