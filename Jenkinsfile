@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Checkout the repository (e.g., from Git)
                 bat 'echo \'--CLONE STAGE EXECUTION ---\''
-                bat 'git checkout ${env.main}'
+                bat 'git checkout ${env.BRANCH_NAME}'
                 //git branch: 'main', url: 'https://github.com/Remston/Wog.git'
             }
         }
